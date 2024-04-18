@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className="flex justify-between shadow-md h-14  sticky top-0 z-[999] bg-white">
       <div className="m-2 flex items-center justify-center">
         <img className="w-10 lg:w-17  rounded-full" src="https://static.vecteezy.com/system/resources/previews/008/533/393/non_2x/ad-artistic-letter-logo-design-with-serif-font-in-black-and-white-colors-illustration-vector.jpg" alt="" />
-        <h1 className="text-xl lg:text-2xl font-extrabold text-green-950"><Link to={"home"}>PAPI-Creative </Link></h1>
+        <h1 className="text-xl lg:text-2xl font-extrabold text-blue-950"><Link to={"home"}>MarketPlace </Link></h1>
       </div>
 
       <div className='dropdown top-12 absolute hidden left-0 bg-green-50 w-full lg:visible lg:top-0 lg:bg-transparent lg:flex lg:justify-end '>

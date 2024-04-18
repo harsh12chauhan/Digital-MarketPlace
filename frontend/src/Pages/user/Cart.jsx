@@ -40,10 +40,10 @@ const Cart = () => {
         <div>
           <div className='flex justify-between items-center'>
             <div>
-              <h1 className='text-3xl lg:text-3xl text-green-950 font-bold lg:ml-16'>Cart</h1>
+              <h1 className='text-3xl lg:text-3xl text-blue-950 font-bold lg:ml-16'>Cart</h1>
             </div>
             <div>
-              <button className='bg-green-950 text-white rounded-full px-6 py-2 text-[11px] font-medium lg:mr-24 hover:scale-105 duration-500' onClick={handleAddProduct}>Add Product</button>
+              <button className='bg-blue-950 text-white rounded-full px-6 py-2 text-[11px] font-medium lg:mr-[20px] hover:scale-105 duration-500' onClick={handleAddProduct}>Add Product</button>
             </div>
           </div>
 
@@ -85,7 +85,7 @@ const Cart = () => {
          } 
       </div>
         {/* right side */}
-        <div className='bg-green-900 h-[547px] w-[300px] p-2 flex flex-col justify-between '>
+        <div className='bg-blue-950 h-[547px] w-[300px] p-2 flex flex-col justify-between '>
           <div className='lg:mb-0 mb-6'>
             <h1 className='text-2xl text-white text-center font-bold underline underline-offset-4 decoration-white'>Payment Details</h1>
           </div>

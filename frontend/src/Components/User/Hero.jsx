@@ -1,9 +1,9 @@
 import React from 'react';
-
+import headphone from '../../assets/headphone.png'
 
 const Hero = () => {
 
-  const headphone = "HeadPhone"
+  // const headphone = "HeadPhone"
   const handleFilter=()=>{
 
   }
@@ -12,11 +12,11 @@ const Hero = () => {
     <div className="px-8 py-4">
       <div className="bg-slate-200 flex flex-col justify-start items-start h-44 relative md:h-56">
         <div className='absolute top-10 left-7 md:left-10'>
-          <p className='text-lg md:text-5xl font-extrabold text-green-900'>Grab upto 60% off on</p>
-          <p className='text-lg md:text-5xl font-extrabold text-green-900'>Selected Headphone</p>
+          <p className='text-lg md:text-5xl font-extrabold text-blue-900'>Grab upto 60% off on</p>
+          <p className='text-lg md:text-5xl font-extrabold text-blue-900'>Selected Headphone</p>
         </div>
         <div className='absolute bottom-9 left-2 md:left-10'>
-          <button className='bg-green-900 rounded-full text-white text-sm font-bold py-1 px-2 md:py-2 md:px-4 hover:scale-105 translate-x-5 transition-all duration-300'>Buy Now</button>
+          <button className='bg-blue-900 rounded-full text-white text-sm font-bold py-1 px-2 md:py-2 md:px-4 hover:scale-105 translate-x-5 transition-all duration-300'>Buy Now</button>
         </div>
         <div>
           <img className="w-[130px] md:w-[270px] md:top-0 md:right-0 absolute top-7 right-0" src={headphone} alt=""/>

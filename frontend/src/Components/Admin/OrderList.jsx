@@ -117,7 +117,7 @@ const OrderList = () => {
                             <button className={`${item.status === "delivered"? "bg-green-500":"bg-red-500"} text-white rounded-xl px-6 py-2`} >{item.status}</button>
                           </td>
                           <td className='text-[12px] font-medium px-4 py-2 text-center'>{item.date}</td>
-                          <td className='text-[12px] font-medium px-4 py-2 text-center'><button className='bg-green-900 text-white rounded-full px-6 py-2'>Bill</button></td>                        
+                          <td className='text-[12px] font-medium px-4 py-2 text-center'><button className='bg-blue-900 text-white rounded-full px-6 py-2'>Bill</button></td>                        
                   </tr>                                       
                   ))  
               }

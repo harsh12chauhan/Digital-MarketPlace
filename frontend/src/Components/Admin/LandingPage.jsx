@@ -124,7 +124,7 @@ const LandingPage = () => {
   return (
         <div className='dashboard' >
             <div className='mx-4 my-6 flex'>
-                <CardDashboard heading="Profit" plcss="bg-red-100" pltext="text-red-500" nums="$75000.90" icon={<FaMoneyBillTrendUp/>} percent={"⬇ -30%"} fromwhen={"Since last month"}/>
+                <CardDashboard heading="Profit" plcss="bg-red-100" pltext="text-red-500" nums="$7500.90" icon={<FaMoneyBillTrendUp/>} percent={"⬇ -30%"} fromwhen={"Since last month"}/>
                 <CardDashboard heading="Orders" plcss="bg-green-100" pltext="text-green-500" nums={oCnt} icon={<FaListCheck/>} percent={"⬆ 13%"} fromwhen={"Since last Yesterday"}/>
                 <CardDashboard heading="Total Products" plcss="bg-red-100" pltext="text-red-500" nums={pCnt} icon={<MdProductionQuantityLimits/>} percent={"⬇ 8%"} fromwhen={"Since last Week"}/>
                 <CardDashboard heading="Total User's"plcss="bg-green-100" pltext="text-green-500"  nums={uCnt} icon={<FaRegUser/>} percent={"⬆ 15%"} fromwhen={"Since last month"}/>
@@ -154,7 +154,7 @@ const LandingPage = () => {
                                     <td className='text-[15px] font-medium px-4 py-2 text-center'>₹{item.totalprice}</td>
                                     <td className='text-[15px] font-medium px-4 py-2 text-center'>{item.status}</td>
                                     <td className='text-[15px] font-medium px-4 py-2 text-center'>{item.date}</td>
-                                    <td className='text-[15px] font-medium px-4 py-2 text-center'><button className='bg-green-900 text-white rounded-full px-6 py-2'>Bill</button></td>                        
+                                    <td className='text-[15px] font-medium px-4 py-2 text-center'><button className='bg-blue-900 text-white rounded-full px-6 py-2'>Bill</button></td>                        
                             </tr>                                       
                             ))
                         }
