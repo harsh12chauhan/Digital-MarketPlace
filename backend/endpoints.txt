@@ -1,0 +1,15 @@
+================== END-POINTS ==================================
+
+------------- user ------------------------
+1. create/register user ✔ ([post]http://localhost:3000/register)
+2. loign user  ✔          ([post]http://localhost:3000/login)
+3. get all users ✔        ([get]http://localhost:3000/allusers)
+4. update user ✔          ([put]http://localhost:3000/updateuser/id)
+5. delete user ✔          ([delete]http://localhost:3000/deleteuser/id)
+
+-------------- product --------------------------
+1. create product ✔   ([post]http://localhost:3000/createProduct)
+2. get all products ✔ ([get]http://localhost:3000/allproducts)
+3. update product ✔   ([put]http://localhost:3000/updateproduct/id)
+4. delete product ✔   ([delete]http://localhost:3000/deleteporduct/id)
+5. get single products
